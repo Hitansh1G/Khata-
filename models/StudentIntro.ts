@@ -10,9 +10,11 @@ export class StudentIntro {
     }
 
     static mocks: StudentIntro[] = [
-        new StudentIntro('Dezire', `Not so great , didnt like it very much`),
-        new StudentIntro('Mercedes', `Comfort is on the whole other level , it has a lot of leg space , with a lot of features`),
-        new StudentIntro('Terminator', `Amazing car but lacks space in diggy `),
+        new StudentIntro('DEVESH SHARMA', `Rs 105000`),
+        new StudentIntro('Lord Ayush', `Rs 600`),
+        new StudentIntro('Vansh', `Rs 1100 `),
+        new StudentIntro('Ashish', `Rs 9990 `),
+        new StudentIntro('Furquan bhAI', `Rs 100000 `),
     ]
 
     borshInstructionSchema = borsh.struct([

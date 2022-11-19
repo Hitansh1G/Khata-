@@ -80,7 +80,7 @@ export const Form: FC = () => {
             <form onSubmit={handleSubmit}>
                 <FormControl isRequired>
                     <FormLabel color='gray.200'>
-                        What do we call you?
+                        Enter the name of the receiver 
                     </FormLabel>
                     <Input 
                     id='name' 
@@ -90,7 +90,7 @@ export const Form: FC = () => {
                 </FormControl>
                 <FormControl isRequired>
                     <FormLabel color='gray.200'>
-                        What brings you to Solana, friend?
+                        How much was your Transaction 
                     </FormLabel>
                     <Textarea 
                         id='message' 
@@ -105,5 +105,5 @@ export const Form: FC = () => {
         </Box>
     );
 
-    
+
 }

@@ -4,15 +4,15 @@
   flex-direction: column;
 
   text-align: left;
-  background-color: #282c34;
+  background-color: black;
 }
 
 .AppHeader {
   height: 90px;
   display: flex;
-  background-color: black;
+  background-color: #282c34;
 
-  
+
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
