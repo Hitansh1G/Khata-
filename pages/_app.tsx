@@ -10,6 +10,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </WalletContextProvider>
     </ChakraProvider>
+
+
+
   )
 }
 

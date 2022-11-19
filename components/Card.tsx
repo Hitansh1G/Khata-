@@ -38,5 +38,7 @@ export const Card: FC<CardProps> = (props) => {
             </Stack>
         </Box>
     )
+
+    
 }
 

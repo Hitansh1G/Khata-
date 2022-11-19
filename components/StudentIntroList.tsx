@@ -36,6 +36,8 @@ export const StudentIntroList: FC = () => {
             </Center>
             {
                 studentIntros.map((studentIntro, i) => <Card key={i} studentIntro={studentIntro} />)
+
+                
             }
             <Center>
                 <HStack w='full' mt={2} mb={8} ml={4} mr={4}>

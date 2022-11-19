@@ -11,6 +11,8 @@
   height: 90px;
   display: flex;
   background-color: black;
+
+  
   flex-direction: row;
   align-items: center;
   justify-content: space-between;

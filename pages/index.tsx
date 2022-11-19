@@ -11,17 +11,17 @@ const Home: NextPage = () => {
   return (
     <div className={styles.App}>
       <Head>
-        <title>Student Intros</title>
+        <title>Auto Mobile review</title>
       </Head>
       <AppBar />
       <Center>
         <Box>
           <Heading as="h1" size="l" color="white" ml={4} mt={8}>
-            Introduce Yourself!
+             Name of your auto Mobile 
           </Heading>
           <Form />
           <Heading as="h1" size="l" color="white" ml={4} mt={8}>
-            Meet the Students!
+            How do u find it !
           </Heading>
           <StudentIntroList />
         </Box>
